@@ -63,7 +63,7 @@ h1 {
 """, unsafe_allow_html=True)
 
 # -------------------- LOAD FILES --------------------
-model = joblib.load("loan_approval_model.pkl")
+model = joblib.load("D:/final dkd/loan_approval_model.pkl")
 model_columns = joblib.load("model_columns.pkl")
 label_encoders = joblib.load("D:/final dkd/label_encoders.pkl")
 
